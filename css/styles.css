@@ -244,6 +244,7 @@ body {
   margin: 0 0 30px 0;
 }
 .team-icons {
+  justify-items: center;
   display: flex;
   gap: 10px;
   margin-bottom: 30px;
