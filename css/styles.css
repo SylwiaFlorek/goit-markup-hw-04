@@ -87,7 +87,15 @@ body {
   color: var(--gray);
   font-weight: 500;
 }
-
+.icon-logo {
+  margin-right: 10px;
+}
+.icons-header {
+  fill: var(--grey);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /*bg&button*/
 .title {
   font-family: "Roboto";
@@ -101,6 +109,9 @@ body {
 }
 
 .section-top {
+  background-image: url(.images/.overlay.svg);
+  background-color: var(--background);
+  background-blend-mode: difference;
   width: 1600px;
   color: var(--white);
   display: flex;
