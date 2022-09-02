@@ -284,7 +284,6 @@ body {
     height: 92px;
     fill: var(--iconcolor);
     stroke: rgba(175, 177, 184, 1);
-    stroke-width: 1px;
   }
   .client-logo:hover {
     fill: var(--blue);
