@@ -263,7 +263,7 @@ body {
   justify-items: center;
 }
 .team-icon:hover {
-  fill: var(--footericon);
+  fill: var(--blue);
 }
 /*Nasi klienci*/
 .clients {
