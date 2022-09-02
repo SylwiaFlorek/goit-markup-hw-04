@@ -261,6 +261,29 @@ body {
   fill: var(--iconcolor);
   justify-items: center;
 }
+/*Nasi klienci*/
+.clients {
+  padding: 94px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.client-logos {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+.client-logo {
+  .client-logo {
+    border-radius: 4px;
+    border: var(--iconcolor) solid 1px;
+    width: 170px;
+    height: 92px;
+    fill: var(--iconcolor);
+  }
+}
 /*footer container*/
 .footer {
   background-color: var(--darkgrey);
