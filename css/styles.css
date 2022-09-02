@@ -135,6 +135,11 @@ body {
   color: var(--white);
 }
 
+.button:hover {
+  background-color: var(--blue);
+  cursor: pointer;
+  box-shadow: 5px 3px 3px white;
+}
 /*Lorem list*/
 .container-list {
   display: flex;
@@ -309,9 +314,6 @@ body {
 .style-button:focus,
 .style-button:hover {
   background-color: var(--blue);
-  box-shadow: 0px 1px 3px rgb(201 45 45 / 12%), 0px 1px 1px rgb(197 197 197),
-    0px 2px 1px rgb(0 0 0 / 20%);
-  color: var(--white);
   cursor: pointer;
 }
 .project-container {
