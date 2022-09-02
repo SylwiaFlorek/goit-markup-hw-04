@@ -322,6 +322,14 @@ body {
 .blue-text:focus {
   color: blue;
 }
+.footer-header {
+  font-weight: 700;
+  color: var(--white);
+  text-transform: uppercase;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  font-weight: 14px;
+}
 .footer-icons {
   display: flex;
   gap: 10px;
