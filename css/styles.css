@@ -277,19 +277,17 @@ body {
   padding: 0;
 }
 .client-logo {
-  .client-logo {
-    border-radius: 4px;
-    border: var(--iconcolor) solid 1px;
-    width: 170px;
-    height: 92px;
-    fill: var(--iconcolor);
-    stroke: rgba(175, 177, 184, 1);
-  }
-  .client-logo:hover {
-    fill: var(--blue);
-    border: var(--blue) solid 1px;
-  }
+  border-radius: 4px;
+  border: var(--iconcolor) solid 1px;
+  width: 170px;
+  height: 92px;
+  fill: var(--iconcolor);
 }
+.client-logo:hover {
+  fill: var(--blue);
+  border: var(--blue) solid 1px;
+}
+
 /*footer container*/
 .footer {
   background-color: var(--darkgrey);
