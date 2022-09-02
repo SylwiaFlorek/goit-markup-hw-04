@@ -262,6 +262,9 @@ body {
   fill: var(--iconcolor);
   justify-items: center;
 }
+.team-icon:hover {
+  fill: var(--footericon);
+}
 /*Nasi klienci*/
 .clients {
   padding: 94px 0;
