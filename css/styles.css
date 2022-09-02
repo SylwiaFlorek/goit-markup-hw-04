@@ -7,7 +7,7 @@
   --gray: #757575;
   --darkgrey: #2f303a;
   --productborder: #eeeeee;
-  --background: #2f303a66;
+  --background: rgba(47, 48, 58, 0.4);
 }
 *,
 *::before,
@@ -310,6 +310,8 @@ body {
 .style-button:focus,
 .style-button:hover {
   background-color: var(--blue);
+  box-shadow: 0px 1px 3px rgb(201 45 45 / 12%), 0px 1px 1px rgb(197 197 197),
+    0px 2px 1px rgb(0 0 0 / 20%);
   color: var(--white);
   cursor: pointer;
 }
