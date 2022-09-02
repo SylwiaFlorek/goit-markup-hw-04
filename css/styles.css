@@ -7,6 +7,7 @@
   --gray: #757575;
   --darkgrey: #2f303a;
   --productborder: #eeeeee;
+  --background: #2f303a66;
 }
 *,
 *::before,
@@ -109,7 +110,7 @@ body {
 }
 
 .section-top {
-  background-image: url(.images/.overlay.svg);
+  background-image: url(https://github.com/SylwiaFlorek/goit-markup-hw-04/blob/main/images/background.jpg);
   background-color: var(--background);
   background-blend-mode: difference;
   width: 1600px;
