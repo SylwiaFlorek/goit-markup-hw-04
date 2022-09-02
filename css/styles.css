@@ -143,6 +143,7 @@ body {
   flex-direction: row;
   gap: 30px;
   padding: 94px 0 0 0;
+  justify-content: center;
 }
 .container-title {
   font-weight: 700;
@@ -153,6 +154,16 @@ body {
   color: var(--black);
   margin: 0 0 10px 0;
   line-height: 1.1428571428571428;
+}
+.style-icon {
+  background-color: var(--notwhite);
+  height: 120px;
+  width: 270px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container-text {
