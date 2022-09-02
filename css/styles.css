@@ -8,6 +8,7 @@
   --darkgrey: #2f303a;
   --productborder: #eeeeee;
   --background: rgba(47, 48, 58, 0.4);
+  --iconcolor: #afb1b8;
 }
 *,
 *::before,
@@ -282,6 +283,12 @@ body {
     width: 170px;
     height: 92px;
     fill: var(--iconcolor);
+    stroke: rgba(175, 177, 184, 1);
+    stroke-width: 1px;
+  }
+  .client-logo:hover {
+    fill: var(--blue);
+    border: var(--blue) solid 1px;
   }
 }
 /*footer container*/
