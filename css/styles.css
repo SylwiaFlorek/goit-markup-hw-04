@@ -255,6 +255,7 @@ body {
   display: flex;
   gap: 10px;
   margin-bottom: 30px;
+  padding-left: 32px;
 }
 
 .team-icon {
@@ -268,8 +269,8 @@ body {
 .team-icon:hover,
 .team-icon:focus {
   fill: var(--blue);
-  background-color: var(--blue);
-  border-radius: 50%;
+
+  border-radius: 50% var(--blue);
   border: 1px solid;
 }
 
