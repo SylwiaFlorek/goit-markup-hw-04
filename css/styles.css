@@ -305,7 +305,13 @@ body {
 .footer {
   background-color: var(--darkgrey);
 }
-
+.footer-container {
+  flex-direction: column;
+  color: var(--white);
+  display: flex;
+  flex-direction: row;
+  margin-left: 215px;
+}
 .adress p {
   margin: 20px 0 0 0;
   font-style: normal;
