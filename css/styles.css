@@ -269,10 +269,10 @@ body {
 }
 .team-icon:hover,
 .team-icon:focus {
-  fill: var(--blue);
-
-  border-radius: 50% var(--blue);
-  border: 1px solid;
+  cursor: pointer;
+  fill: var(--white);
+  background-color: var(--blue);
+  border-color: var(--blue);
 }
 
 /*Nasi klienci*/
