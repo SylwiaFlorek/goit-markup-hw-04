@@ -9,6 +9,7 @@
   --productborder: #eeeeee;
   --background: rgba(47, 48, 58, 0.4);
   --iconcolor: #afb1b8;
+  --footericon: rgba(255, 255, 255, 0.1);
 }
 *,
 *::before,
@@ -334,9 +335,7 @@ body {
   fill: var(--blue);
   color: var(--blue);
 }
-.join-us {
-  margin-left: ;
-}
+
 .footer-header {
   font-weight: 700;
   color: var(--white);
@@ -344,6 +343,10 @@ body {
   margin-left: 70px;
   margin-bottom: 20px;
   font-weight: 14px;
+}
+.footer-contacts {
+  width: 246px;
+  padding-left: 15px;
 }
 .footer-icons {
   display: flex;
