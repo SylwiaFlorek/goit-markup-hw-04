@@ -262,17 +262,16 @@ body {
 .team-icon {
   width: 44px;
   height: 44px;
-  background-color: var(--white);
+  background-color: var(--footericon);
   border-radius: 50%;
-  fill: var(--iconcolor);
-  justify-items: center;
+  fill: var(--white);
 }
+
 .team-icon:hover,
 .team-icon:focus {
   cursor: pointer;
   fill: var(--white);
   background-color: var(--blue);
-  border-color: var(--blue);
 }
 
 /*Nasi klienci*/
