@@ -268,7 +268,7 @@ body {
 .team-icon:hover,
 .team-icon:focus {
   fill: var(--blue);
-  color: var(--blue);
+  background-color: var(--blue);
   border-radius: 50%;
   border: 1px solid;
 }
@@ -332,6 +332,9 @@ body {
 .team-icon:focus {
   fill: var(--blue);
   color: var(--blue);
+}
+.join-us {
+  margin-left: ;
 }
 .footer-header {
   font-weight: 700;
