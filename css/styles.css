@@ -262,6 +262,13 @@ body {
   fill: var(--iconcolor);
   justify-items: center;
 }
+.team-icon:hover,
+.team-icon:focus {
+  fill: var(--blue);
+  color: var(--blue);
+  border-radius: 50%;
+  border: 1px solid;
+}
 
 /*Nasi klienci*/
 .clients {
@@ -319,8 +326,9 @@ body {
 .blue-text:hover,
 .blue-text:focus,
 .team-icon:hover,
-.team-icon:focus . {
+.team-icon:focus {
   fill: var(--blue);
+  color: var(--blue);
 }
 .footer-header {
   font-weight: 700;
