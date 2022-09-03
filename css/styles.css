@@ -264,13 +264,12 @@ body {
   height: 44px;
   background-color: var(--footericon);
   border-radius: 50%;
-  fill: var(--white);
+  fill: var(--iconcolor);
 }
 
 .team-icon:hover,
 .team-icon:focus {
   cursor: pointer;
-  fill: var(--white);
   background-color: var(--blue);
 }
 
