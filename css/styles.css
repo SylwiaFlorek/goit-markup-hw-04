@@ -319,7 +319,9 @@ body {
 .footer-link:hover,
 .footer-link:focus,
 .blue-text:hover,
-.blue-text:focus {
+.blue-text:focus,
+.team-icon:hover,
+.team-icon:focus . {
   color: blue;
 }
 .footer-header {
