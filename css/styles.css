@@ -335,9 +335,7 @@ body {
 .footer-link:hover,
 .footer-link:focus,
 .blue-text:hover,
-.blue-text:focus,
-.team-icon:hover,
-.team-icon:focus {
+.blue-text:focus {
   fill: var(--blue);
   color: var(--blue);
 }
