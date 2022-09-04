@@ -270,6 +270,7 @@ body {
 .team-icon:hover,
 .team-icon:focus {
   cursor: pointer;
+  fill: var(--white);
   background-color: var(--blue);
 }
 
